@@ -116,3 +116,5 @@ Get-ChildItem Microsoft
 Set-Location ./Windows
 # Lets set EnableAeroPeek registry value to 0 from 1
 Set-ItemProperty -Path DWM -PSProperty EnableAeroPeek -Value 0
+# To go back to local storage PSDrive
+Set-Location C:\Users\Sabya
